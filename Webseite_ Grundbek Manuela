@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lauser - Herrscher der Welt</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, lightblue, lightgreen, lightyellow);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .text-block {
+            text-align: center;
+            margin: 20px;
+            font-size: 1.5em;
+        }
+        .main-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 20px;
+            gap: 40px;
+        }
+        .side-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .side-section img {
+            max-width: 150px;
+            height: auto;
+            border: 5px solid white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .side-section .text {
+            font-size: 1em;
+            font-style: italic;
+            line-height: 1.5em;
+            max-width: 300px;
+            text-align: center;
+        }
+        .middle-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .middle-section img {
+            max-width: 600px;
+            height: auto;
+            border: 15px solid orange;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .middle-section video {
+            max-width: 600px;
+            height: auto;
+            margin-top: 20px;
+            border: 10px solid orange;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            max-width: 150px;
+            height: auto;
+            border: 5px solid white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+    <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+    <span style="font-size: 1.5em; transform: rotate(-15deg);">:-)</span>
+    Willkommen in meiner Welt!
+    <span style="font-size: 2.5em; transform: rotate(15deg);">:-)</span>
+</div>
+    <div class="text-block">
+        <p><strong>Steckbrief:</strong></p>
+        <p>Name: Lauser</p>
+        <p>Geboren am 2. September 2023</p>
+        <p>Hobbys: Spielen, Essen, Blödsinn machen, Ziehmama ärgern, Sachen verstecken</p>
+    </div>
+
+    <div class="main-container">
+        <div class="side-section">
+            <img src="https://i.postimg.cc/hhfBNZkC/20231110-172001.jpg" alt="Bild links oben">
+            <div class="text">
+                <p>Ich weiß ja nicht, was da schief läuft, aber meine Ziehmama ist auf einmal kleiner als ich - ich hoffe das wird nicht noch schlimmer! Sie braucht ja jetzt schon ewig, wenn sie mich sauber macht!</p>
+            </div>
+            <img src="https://i.postimg.cc/RWc9X3k4/20231110-171950.jpg" alt="Bild links unten">
+            <div class="text">
+                <p>Ich habe mega viel Spielzeug. Aber am liebsten spiele ich mit kleinen Papierkügelchen oder mit den lustigen Einkaufstaschen, die meine Menschen immer mitbringen :)</p>
+            </div>
+        </div>
+
+        <div class="middle-section">
+            <img src="https://i.postimg.cc/QFkGc27M/20231110-172003.jpg" alt="Bild in der Mitte">
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/aEnHMDWz4Yg" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="side-section">
+            <img src="https://i.postimg.cc/HcNfpHq6/20231110-172000.jpg" alt="Bild rechts oben">
+            <div class="text">
+                <p>Ich esse für mein Leben gern! Futter ist ja auch lecker, aber was auf den Tellern meiner Menschen ist, schmeckt meistens noch viel besser! Dann mach ich große Augen und schau, ob ich was abkriegen kann. Wenn das nicht klappt, setz ich mich auf meine Hinterbeine - wie ein Erdmännchen - und klau mir selber was ;) Das ist allerdings manchmal gefährlich! Letztens hab ich ein Stück Salat erwischt! Bääähhh!!</p>
+            </div>
+            <img src="https://i.postimg.cc/SRbYSCS7/20241103-121558.jpg" alt="Bild rechts unten">
+        </div>
+    </div>
+</body>
+</html>
